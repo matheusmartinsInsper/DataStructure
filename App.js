@@ -1,5 +1,5 @@
-const Node =  require('./node');
-const treeBinary = require('./treeData');
+const Node =  require('./BST/node');
+const treeBinary = require('./BST/treeData');
 
 function main(){
   const tree = new treeBinary();
@@ -9,6 +9,7 @@ function main(){
   tree.insert(7);
   tree.insert(2);
   tree.insert(10);
+  console.log(tree.height());
   console.log(tree.root);
   console.log(node1)
 }
